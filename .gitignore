@@ -1,0 +1,60 @@
+# ─── Maven ────────────────────────────────────────────────────────────────
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# ─── Spring Boot ──────────────────────────────────────────────────────────
+*.jar
+*.war
+*.ear
+spring-shell.log
+
+# ─── IntelliJ IDEA ────────────────────────────────────────────────────────
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ─── VS Code ──────────────────────────────────────────────────────────────
+.vscode/
+*.code-workspace
+
+# ─── Eclipse ──────────────────────────────────────────────────────────────
+.eclipse/
+.classpath
+.project
+.settings/
+bin/
+
+# ─── OS ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Environment & Secrets ────────────────────────────────────────────────
+.env
+.env.*
+*.local
+application-local.yml
+application-secret.yml
+**/src/main/resources/application-local.yml
+
+# ─── Logs ─────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ─── Docker ───────────────────────────────────────────────────────────────
+docker-compose.override.yml
+
+# ─── Test output ──────────────────────────────────────────────────────────
+test-output/
+surefire-reports/
