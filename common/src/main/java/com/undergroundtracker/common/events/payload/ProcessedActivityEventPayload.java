@@ -1,6 +1,9 @@
-package com.undergroundtrakcer.common.events.payload;
+package com.undergroundtracker.common.events.payload;
 
 import java.time.Instant;
+
+import com.undergroundtracker.common.enums.ActivityClassification;
+import com.undergroundtracker.common.enums.Platform;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProcessActivityEventPayload {
+public class ProcessedActivityEventPayload {
   private String activityEventId;
   private String rawEventId;
   private String artistId;

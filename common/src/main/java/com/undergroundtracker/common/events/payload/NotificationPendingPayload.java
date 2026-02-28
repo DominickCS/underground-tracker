@@ -1,5 +1,7 @@
 package com.undergroundtracker.common.events.payload;
 
+import com.undergroundtracker.common.enums.ActivityClassification;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
